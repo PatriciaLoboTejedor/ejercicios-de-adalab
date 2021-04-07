@@ -1,0 +1,52 @@
+:root {
+  --padding: 20px;
+  --margin: 0px;
+  --color-1: grey;
+  --color-2: green;
+}
+
+body {
+  margin: var(--margin);
+}
+
+header {
+  background-color: #eaeaea;
+  padding: var(--padding);
+}
+
+main {
+  padding: var(--padding);
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--color-1);
+  margin: var(--margin);
+}
+
+.subtitle {
+  color: var(--color-1);
+  margin: var(--margin);
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--color-2);
+  text-decoration: none;
+}
+
+p a {
+  color: var(--color-2);
+}

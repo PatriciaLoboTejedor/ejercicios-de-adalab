@@ -1,0 +1,25 @@
+p {
+  background-color: red;
+}
+
+.rectangle {
+  display: block;
+}
+
+.rectangle2 {
+  display: inline;
+  height: 100px;
+  width: 100px;
+}
+
+.rectangle3 {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.rectangle4 {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
