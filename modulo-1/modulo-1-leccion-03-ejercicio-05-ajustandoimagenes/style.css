@@ -1,6 +1,6 @@
 .box {
-  margin: 0 auto;
-  background: red;
+  margin: auto;
+  background-color: red;
   height: 100px;
   width: 100px;
   padding: 10px;
@@ -8,12 +8,11 @@
 }
 
 .logo {
-  margin: auto;
   display: inline-block;
   height: 100px;
-  margin: auto;
 }
 
 .border-box {
   box-sizing: border-box;
+  margin: auto;
 }
