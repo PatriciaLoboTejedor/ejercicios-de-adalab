@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  border: 1px solid purple;
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+}
+.item5 {
+  order: -4;
+  width: 100%;
+}
+img {
+  height: 100px;
+}

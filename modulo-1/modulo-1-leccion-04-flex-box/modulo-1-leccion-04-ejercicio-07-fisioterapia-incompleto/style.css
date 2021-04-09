@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 840px;
+  flex-wrap: wrap;
+}
+.header {
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+  background-color: lightgray;
+}
+.imglogo {
+  height: 100px;
+  width: 100px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.aside1 {
+  min-width: 20%;
+}
+.titulo {
+  font-family: Calibri, "Gill Sans", sans-serif;
+}
+.texto {
+  font-family: Calibri, "Gill Sans", sans-serif;
+  color: lightgray;
+}
+.article {
+  background-color: lightseagreen;
+  padding: 10px;
+}
+.aside2 {
+  background-color: rgb(243, 96, 120);
+  min-width: 20%;
+}
+.footer {
+  height: 20px;
+  width: 20px;
+  border-radius: 6px;
+  background-color: lightgray;
+}

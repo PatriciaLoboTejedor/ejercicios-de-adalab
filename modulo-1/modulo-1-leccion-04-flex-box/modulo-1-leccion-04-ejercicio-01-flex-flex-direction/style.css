@@ -1,0 +1,17 @@
+.container {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* row=se ven vertical column= se ven horizontal */
+}
+
+.item {
+  border: 1 black;
+  background-color: lightpink;
+  border: 1px solid deeppink;
+  padding: 5px;
+  margin: 0px;
+}

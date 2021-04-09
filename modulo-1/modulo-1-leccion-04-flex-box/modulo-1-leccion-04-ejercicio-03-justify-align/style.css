@@ -1,0 +1,17 @@
+.container {
+  border: 1px solid purple;
+  box-sizing: border-box;
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  /* row=se ven vertical column= se ven horizontal */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  border: 1 black;
+  padding: 5px;
+  margin: 20px;
+}

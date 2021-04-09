@@ -1,0 +1,23 @@
+.container {
+  border: 1px solid purple;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  /* row=se ven vertical column= se ven horizontal */
+  flex-wrap: wrap;
+}
+.header {
+  height: 50px;
+  background-color: lightgray;
+  padding: 10px;
+}
+.main {
+  height: 80vh;
+  background-color: gray;
+  padding: 10px;
+}
+.footer {
+  height: 50px;
+  background-color: orange;
+  padding: 10px;
+}
