@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  max-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid grey;
+  color: grey;
+}
+.pdf {
+  background-color: red;
+  color: rgb(252, 242, 223);
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}

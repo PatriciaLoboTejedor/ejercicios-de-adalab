@@ -1,0 +1,6 @@
+.lista {
+  display: flex;
+}
+.elemento {
+  margin-right: 12px;
+}

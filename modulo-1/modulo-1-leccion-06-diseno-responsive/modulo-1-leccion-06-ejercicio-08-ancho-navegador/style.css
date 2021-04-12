@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+.box {
+  background: red;
+  width: 100vw;
+  height: 50vh;
+}
+@media all and (min-width: 480px) {
+  .box {
+    background: rgb(255, 238, 0);
+  }
+}
+@media all and (min-width: 768px) {
+  .box {
+    background: rgb(30, 255, 0);
+  }
+}

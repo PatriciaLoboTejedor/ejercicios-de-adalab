@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+.section {
+  background-color: lightgray;
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.header {
+  background-color: lightgray;
+  width: 100%;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.nav {
+  background-color: green;
+  width: 100%;
+  font-size: 18px;
+}
+.main {
+  background-color: yellow;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.para {
+  font-size: 18px;
+}
+
+.footer {
+  background-color: grey;
+  width: 100%;
+}
+
+.heading2 {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+/*responsive pantalla de 480px a 1000px*/
+@media all and (min-width: 480px) {
+  .section {
+    background-color: lightgray;
+    max-width: 1000px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .header {
+    background-color: lightgray;
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .nav {
+    background-color: green;
+    width: 150vw;
+    height: fit-content;
+    margin-right: 30px;
+    font-size: 18px;
+  }
+  .main {
+    background-color: yellow;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .para1 {
+    width: 55%;
+    padding-bottom: 20px;
+  }
+  .articulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .box-naranja {
+    width: 45%;
+    height: 200px;
+    background-color: orange;
+  }
+
+  .footer {
+    background-color: grey;
+    width: 100%;
+  }
+
+  .heading2 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*responsive pantalla a partir de 1000px*/
+@media all and (min-width: 1000px) {
+  .section {
+    background-color: lightgray;
+    max-width: 1000px;
+    padding-right: 0px;
+  }
+  .header {
+    background-color: lightgray;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .nav {
+    background-color: green;
+    width: 150%;
+    font-size: 18px;
+  }
+  .main {
+    background-color: yellow;
+  }
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .articulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .box-naranja {
+    width: 45%;
+    height: 200px;
+    background-color: orange;
+  }
+
+  .footer {
+    background-color: grey;
+    width: 40%;
+    margin-left: 30px;
+    margin-right: 0px;
+    height: 70%;
+  }
+  .div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

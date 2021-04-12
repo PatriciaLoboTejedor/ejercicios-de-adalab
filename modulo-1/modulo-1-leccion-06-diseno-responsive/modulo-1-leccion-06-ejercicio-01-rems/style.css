@@ -1,0 +1,21 @@
+html {
+  font-size: 16px; /* para carita de 100px x 100px */
+  /* font-size: 8px; para carita de 50px x 50px */
+  /* font-size: 32px; para carita de 200px x 200px */
+}
+.smiley {
+  width: 6.25rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}

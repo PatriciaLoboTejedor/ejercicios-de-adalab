@@ -1,0 +1,8 @@
+.container {
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  max-width: 86%;
+}

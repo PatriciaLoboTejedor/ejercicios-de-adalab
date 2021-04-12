@@ -1,0 +1,12 @@
+.text {
+  position: relative;
+  z-index: 0;
+  margin-bottom: 120px;
+}
+.cookies {
+  height: 100px;
+  background-color: yellow;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}

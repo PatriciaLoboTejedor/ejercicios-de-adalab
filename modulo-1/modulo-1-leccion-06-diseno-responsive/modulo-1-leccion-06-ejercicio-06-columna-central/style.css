@@ -1,0 +1,42 @@
+.contenedor {
+  margin: 20px;
+}
+.titulo {
+  font-weight: bold;
+  font-size: 32px;
+}
+.parrafo {
+  font-size: 18px;
+  line-height: 24px;
+}
+@media all and (min-width: 768px) {
+  .contenedor {
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .titulo {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  .parrafo {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media all and (min-width: 1140px) {
+  .contenedor {
+    margin-top: 190px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 750px;
+  }
+  .titulo {
+    font-weight: bold;
+    font-size: 42px;
+  }
+  .parrafo {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
