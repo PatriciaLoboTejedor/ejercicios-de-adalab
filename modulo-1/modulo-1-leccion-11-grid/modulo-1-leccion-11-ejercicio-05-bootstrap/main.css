@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.container.fluid {
+}
+.row {
+  color: white;
+}
+.header {
+  background-color: pink;
+  height: 15vh;
+}
+.menu {
+  background-color: purple;
+  height: 30vh;
+}
+.content {
+  background-color: orange;
+}
+.footer {
+  background-color: lightblue;
+  height: 15vh;
+}

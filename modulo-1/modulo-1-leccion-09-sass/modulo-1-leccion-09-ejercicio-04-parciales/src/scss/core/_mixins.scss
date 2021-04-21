@@ -4,3 +4,9 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+@mixin tablet {
+  @media all and (min-width: 768px) {
+    @content;
+  }
+}

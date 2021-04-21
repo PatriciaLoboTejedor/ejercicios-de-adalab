@@ -1,8 +1,5 @@
 .container {
+  margin: 0 auto;
   max-width: 600px;
-  display: flex;
-  justify-content: center;
-}
-.text {
-  max-width: 86%;
+  width: 86%;
 }
