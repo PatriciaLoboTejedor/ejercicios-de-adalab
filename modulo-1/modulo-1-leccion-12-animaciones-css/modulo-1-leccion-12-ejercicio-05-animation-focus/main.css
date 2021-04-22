@@ -1,0 +1,58 @@
+form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+
+  max-width: 500px;
+  height: 60vh;
+
+  background-color: #909090;
+}
+input {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+  height: 40px;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.input-mail {
+  transition: border ease 1s;
+}
+label {
+  padding-left: 60px;
+  font-family: sans-serif;
+  font-size: 1rem;
+  bottom: 30px;
+  color: lightslategray;
+  position: relative;
+}
+.input-mail:focus {
+  border: lightskyblue 2px solid;
+  outline: 0 none;
+}
+.input-mail:focus ~ .label-mail {
+  animation-name: label-move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes label-move {
+  from {
+    color: lightslategray;
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-15px, -35px);
+    color: black;
+  }
+}
+.button {
+  background-color: rgb(0, 136, 95);
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  height: 40px;
+  color: white;
+  margin: 0 auto;
+}

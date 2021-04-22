@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font: 16px arial, sans-serif;
+  background: #414141;
+}
+
+.container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: fixed;
+  bottom: -200px;
+
+  width: 400px;
+  height: 200px;
+
+  text-align: center;
+  line-height: 20vh;
+
+  font-size: 48px;
+  font-weight: bold;
+  color: seagreen;
+
+  border-radius: 30px;
+  background: white;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.29),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.44);
+  transition: transform 2s;
+}
+
+body:hover .popup {
+  transform: translateY(-55vh);
+}
