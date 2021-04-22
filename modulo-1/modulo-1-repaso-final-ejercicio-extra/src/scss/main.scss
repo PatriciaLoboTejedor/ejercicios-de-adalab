@@ -1,0 +1,16 @@
+//CORE
+@import "core/variables";
+@import "core/reset";
+@import "core/commons";
+
+//COMPONENTS
+@import "components/code";
+@import "components/links";
+
+//LAYOUT
+@import "layout/main";
+@import "layout/header";
+@import "layout/footer";
+
+//PAGES
+@import "pages/index";

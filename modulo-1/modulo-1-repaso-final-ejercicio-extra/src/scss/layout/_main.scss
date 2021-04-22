@@ -1,0 +1,80 @@
+.main {
+  .hero {
+    height: 800px;
+    &__img {
+      background: url(../images/slider-home.jpg) center;
+      height: 800px;
+      background-size: cover;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .hero__title {
+        display: inline-block;
+        text-align: center;
+
+        color: white;
+        font-size: 60px;
+        font-weight: 100;
+        span {
+          color: $color-magenta;
+        }
+      }
+    }
+  }
+  .intro {
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px;
+    max-width: 60vw;
+    &__title {
+      color: $color-blue;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+    }
+    &__subtitle {
+      font-size: 25px;
+      font-weight: 600;
+    }
+  }
+  .description-section {
+    .modern-design {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &__elements {
+        text-align: center;
+        width: 55vw;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        padding: 10px 20px;
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+        &--img {
+          padding: 20px;
+        }
+        &--title {
+          font-weight: 600;
+          font-size: 18px;
+          padding-bottom: 20px;
+        }
+        &--text {
+          padding-bottom: 50px;
+        }
+        &--link {
+          text-decoration: none;
+          font-weight: 600;
+          color: black;
+          padding-right: 10px;
+        }
+        .fas {
+          color: $color-blue;
+        }
+      }
+    }
+  }
+}
