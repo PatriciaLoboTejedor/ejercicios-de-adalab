@@ -1,0 +1,27 @@
+.success {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid darkgreen;
+  background: lightgreen;
+  color: darkgreen;
+}
+.error {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid darkred;
+  background: red;
+  color: darkred;
+}
+.warning {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  background: black;
+  color: yellow;
+}
