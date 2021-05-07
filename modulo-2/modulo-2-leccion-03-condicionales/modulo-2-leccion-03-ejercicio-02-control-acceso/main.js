@@ -1,10 +1,14 @@
 "use strict";
 
-let partner = "Patricia Lobo";
+let partner = "Elia Alonso";
 
 const body = document.querySelector("body");
 
-if (partner === "Patricia Lobo" || partner === "Rosa Berned") {
+if (
+  partner === "Patricia Lobo" ||
+  partner === "Rosa Berned" ||
+  partner === "Elia Alonso"
+) {
   body.innerHTML = "<h1> Bienvenida " + partner + "</h1>";
 } else {
   body.innerHTML =

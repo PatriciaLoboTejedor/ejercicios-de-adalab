@@ -1,0 +1,13 @@
+.color1 {
+  background-color: blue;
+  color: white;
+}
+.color2 {
+  background-color: yellow;
+  color: black;
+}
+
+.color--scroll {
+  background-color: yellow;
+  color: black;
+}

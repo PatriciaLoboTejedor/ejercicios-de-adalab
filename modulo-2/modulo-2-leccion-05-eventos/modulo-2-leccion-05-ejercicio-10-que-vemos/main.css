@@ -1,0 +1,11 @@
+.button {
+  padding: 6px;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  background: purple;
+  border-radius: 10px;
+}
+.button--selected {
+  background: plum;
+}
