@@ -2,13 +2,14 @@
 
 let number = 5;
 
-function parImpar(number) {
-  if (number / 2 == 0) {
-    return "par";
-  } else {
+function isEven(number) {
+  const module = number % 2;
+  if (module === 1) {
     return "impar";
+  } else {
+    return "par";
   }
 }
 
-const result = parImpar(number);
+const result = isEven(number);
 console.log("El número " + number + " es " + result);
