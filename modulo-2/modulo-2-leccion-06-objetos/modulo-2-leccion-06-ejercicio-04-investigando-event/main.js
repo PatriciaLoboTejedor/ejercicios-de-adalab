@@ -2,7 +2,7 @@
 
 const button = document.querySelector(".js-button");
 
-function buttonClick(event) {
+function buttonClick() {
   button.classList.toggle("button--selected");
 
   // Loguear el objeto event para investigar

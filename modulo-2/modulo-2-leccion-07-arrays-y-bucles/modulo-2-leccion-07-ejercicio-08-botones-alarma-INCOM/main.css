@@ -1,0 +1,14 @@
+.button {
+  padding: 6px;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  background: white;
+  border-radius: 10px;
+}
+.background-red {
+  background: red;
+}
+.background-white {
+  background: white;
+}
