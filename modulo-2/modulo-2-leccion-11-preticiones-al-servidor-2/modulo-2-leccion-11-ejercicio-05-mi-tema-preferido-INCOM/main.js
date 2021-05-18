@@ -3,12 +3,12 @@
 const main = document.querySelector(".js-main");
 const inputs = document.querySelectorAll("input");
 
-function changeTheme() {
+function changeTheme(event) {
   debugger;
-  if (input.value === "oscuro") {
+  if (event.currentTarget.value === "oscuro") {
     main.classList.remove("light");
     main.classList.add("dark");
-  } else if (input.value === "claro") {
+  } else if (event.currentTarget.value === "claro") {
     main.classList.remove("dark");
     main.classList.add("light");
   }
