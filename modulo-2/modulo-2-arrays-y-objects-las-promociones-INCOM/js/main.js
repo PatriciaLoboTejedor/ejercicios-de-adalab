@@ -70,23 +70,46 @@ const studentsWorkingInGoogle = ["id-2", "id-3", "id-5", "id-9"];
 
 // Elementos sobre el que pintaremos en el HTML
 const divHtml = document.querySelector(".js-result");
-divHtml.innerHTML += "<ul class='js-list'></ul>";
-const listHtml = document.querySelector(".js-list");
 
 // Arrays Promos
-for (let i = 0; i < promos.length; i++) {
-  // 1. Pintar los nombres de las promos
-  const promoNames = promos[i].name;
-  // 2. Pintar las letras de las promos
-  const promoLetter = promos[i].promo;
-  // 3. Pintar el número de alumnas
-  const promoStudents = promos[i].students.length;
-  // 4. Pintar en pantalla, dentro de las promos, los nombres y la edad de las alumnas
-  const students = promos[i][2];
-  console.log(students);
+function writePromos() {
+  let html = "<ul>";
 
-  listHtml.innerHTML += `<li><p>Nombre: ${promoNames}</p><p>Promo: ${promoLetter}</p><p>Número de alumnas: ${promoStudents}</p></li>`;
+  for (let i = 0; i < promos.length; i++) {
+    // 1. Pintar los nombres de las promos
+    const promoNames = promos[i].name;
+    // 2. Pintar las letras de las promos
+    const promoLetter = promos[i].promo;
+    // 3. Pintar el número de alumnas
+    const promoStudents = promos[i].students.length;
+
+    console.log(promoNames);
+    console.log(promoLetter);
+    console.log(promoStudents);
+
+    /*divHtml.innerHTML += `<li><p>Nombre: ${promoNames}</p><p>Promo: ${promoLetter}</p><p>Número de alumnas: ${promoStudents}</p>`;*/
+
+    html += `<li><p>Nombre: ${promoNames}</p><ul>`;
+
+    // 4. Pintar en pantalla, dentro de las promos, los nombres y la edad de las alumnas
+    const students = promos[i].students;
+    for (let i = 0; i < promos.length; i++) {
+      const studentsNames = students[i].name;
+      const studentsAge = students[i].age;
+      console.log(studentsNames);
+      console.log(studentsAge);
+
+      html += `<li>${studentsNames}, ${studentsAge}</li>`;
+    }
+
+    html += "</ul></li>";
+  }
+
+  html += "</ul>";
+  divHtml.innerHTML = html;
 }
+
+writePromos();
 
 // Array Students
 /*for (let j = 0; j < promoStudents; j++) {
