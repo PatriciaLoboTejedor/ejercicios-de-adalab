@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-component {
+  margin: 20px;
+  padding: 20px;
+}
+
+.App-onion {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: red;
+}

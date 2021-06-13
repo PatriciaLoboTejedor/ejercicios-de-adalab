@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-component {
+  margin: 20px;
+  padding: 20px;
+  width: 80vw;
+  border: gray solid 2px;
+}
+
+.squareBlue {
+  background-color: blue;
+  cursor: pointer;
+  height: 30px;
+}
+
+.squareRed {
+  background-color: red;
+  cursor: pointer;
+  height: 30px;
+}
